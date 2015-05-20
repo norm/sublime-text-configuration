@@ -9,6 +9,10 @@
 		"*.pyc",
 	],
 	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"indent_guide_options":
 	[
 		"draw_active"

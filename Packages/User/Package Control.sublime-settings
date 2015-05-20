@@ -4,6 +4,7 @@
 	],
 	"installed_packages":
 	[
+		"GitGutter",
 		"Package Control",
 		"Theme - Soda"
 	]

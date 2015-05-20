@@ -1,6 +1,16 @@
 {
 	"color_scheme": "Packages/Base16/base16-chalk.dark.tmTheme",
+	"draw_indent_guides": true,
+	"draw_white_space": "all",
+	"rulers":
+	[
+		78,
+		120
+	],
 	"soda_classic_tabs": true,
 	"soda_folder_icons": true,
 	"theme": "Soda Dark 3.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"word_wrap": true
 }

@@ -1,0 +1,14 @@
+[
+    {
+        "keys": ["super+p"],
+        "command": "show_overlay",
+        "args": {
+            "overlay": "goto",
+            "text": "@"
+        }
+    },
+    {
+        "keys": ["super+r"],
+        "command": "filter_through_command"
+    },
+]

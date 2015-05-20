@@ -4,6 +4,7 @@
 	],
 	"installed_packages":
 	[
+		"External Command",
 		"GitGutter",
 		"Package Control",
 		"Theme - Soda"

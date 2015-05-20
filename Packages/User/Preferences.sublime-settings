@@ -1,4 +1,5 @@
 {
+	"color_scheme": "Packages/Base16/base16-chalk.dark.tmTheme",
 	"soda_classic_tabs": true,
 	"soda_folder_icons": true,
 	"theme": "Soda Dark 3.sublime-theme",

@@ -4,6 +4,7 @@
 	],
 	"installed_packages":
 	[
+		"ColorPicker",
 		"External Command",
 		"GitGutter",
 		"Package Control",

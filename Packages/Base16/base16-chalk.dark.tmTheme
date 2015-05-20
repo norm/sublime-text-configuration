@@ -40,6 +40,14 @@
 				<string>#50505055</string>
 				<key>selection</key>
 				<string>#303030</string>
+
+				<!-- added indent guide highlighting -->
+				<key>guide</key>
+				<string>#3b5364</string>
+				<key>activeGuide</key>
+				<string>#a1b56c</string>
+				<key>stackGuide</key>
+				<string>#7cafc2</string>
 			</dict>
 		</dict>
 		<dict>

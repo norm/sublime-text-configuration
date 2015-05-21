@@ -12,6 +12,10 @@
         "command": "filter_through_command"
     },
     {
+        "keys": ["super+shift+t"],
+        "command": "goto_symbol_in_project"
+    },
+    {
         "keys": ["super+quote"],
         "command": "bh_key",
         "args":

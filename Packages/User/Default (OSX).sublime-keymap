@@ -16,6 +16,10 @@
         "command": "goto_symbol_in_project"
     },
     {
+        "keys": ["ctrl+q"],
+        "command": "wrap_lines_plus"
+    },
+    {
         "keys": ["super+quote"],
         "command": "bh_key",
         "args":

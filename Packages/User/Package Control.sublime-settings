@@ -4,6 +4,7 @@
 	],
 	"installed_packages":
 	[
+		"BracketHighlighter",
 		"ColorPicker",
 		"External Command",
 		"GitGutter",

@@ -14,7 +14,8 @@
 		"SCSS",
 		"SideBarEnhancements",
 		"SublimeLinter",
+		"SublimeLinter-pylint",
 		"Theme - Soda",
-		"Wrap Plus",
+		"Wrap Plus"
 	]
 }

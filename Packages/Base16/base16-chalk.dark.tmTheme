@@ -609,6 +609,41 @@
 				<string>#ba8baf</string>
 			</dict>
 		</dict>
+
+		<!-- sublimelinter additions -->
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Error</string>
+			<key>scope</key>
+			<string>sublimelinter.mark.error</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ab4642</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Warning</string>
+			<key>scope</key>
+			<string>sublimelinter.mark.warning</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dc9656</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Gutter Mark</string>
+			<key>scope</key>
+			<string>sublimelinter.gutter-mark</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e8e8e8</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>71587fed-8a8e-4bbf-bc91-8da7d37f43d9</string>

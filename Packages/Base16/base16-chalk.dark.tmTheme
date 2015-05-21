@@ -47,7 +47,7 @@
 				<key>caret</key>
 				<string>#f8f8f8</string>
 				<key>lineHighlight</key>
-				<string>#f7ca8844</string>
+				<string>#f7ca882f</string>
 				<key>selection</key>
 				<string>#f7ca8844</string>
 			</dict>
@@ -595,7 +595,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ba8baf</string>
+				<string>#a16946</string>
 			</dict>
 		</dict>
 		<dict>

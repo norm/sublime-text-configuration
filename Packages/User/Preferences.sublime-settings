@@ -8,6 +8,14 @@
 		".DS_Store",
 		"*.pyc",
 	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".sass-cache"
+	],
 	"highlight_line": true,
 	"ignored_packages":
 	[

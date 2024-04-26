@@ -2,7 +2,9 @@
 	"bootstrapped": true,
 	"installed_packages":
 	[
-		"Package Control"
+		"Base16 Color Schemes",
+		"Package Control",
+		"Theme - Soda",
 	],
 	"in_process_packages":
 	[

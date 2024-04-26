@@ -1,0 +1,31 @@
+{
+    "variables": {},
+    "globals": {
+        "caret":          "#eda987ff",      // base16chalk orange
+        "line_highlight": "#eda98744",
+        "selection":      "#eda98766",
+
+        "active_guide": "#6fc2efff",        // base16chalk blue
+        "guide":        "#6fc2ef77",
+        "stack_guide":  "#6fc2ef77",
+
+        "line_diff_added":    "#acc267",    // base16chalk green
+        "line_diff_modified": "#deaf8f",    // base16chalk yellow
+        "line_diff_deleted":  "#9f481b",    // cognac
+        "line_diff_width":    "2",
+    },
+    "rules": [
+        {
+            "name":       "brighter comments",
+            "scope":      "comment",
+            "foreground": "#666",
+            "font_style": "italic",
+        },
+        {
+            "name":       "brighter comment punct",
+            "scope":      "punctuation.definition.comment",
+            "foreground": "#4b4b4b",
+            "font_style": "italic",
+        },
+    ]
+}

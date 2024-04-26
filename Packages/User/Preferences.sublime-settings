@@ -1,6 +1,23 @@
 {
-	"ignored_packages":
-	[
-		"Vintage",
-	],
+    // interface appearance
+    "theme": "Soda Dark 3.sublime-theme",
+    "bold_folder_labels": true,
+    "highlight_modified_tabs": true,
+    "index_files": true,
+    "soda_classic_tabs": true,
+    "soda_folder_icons": true,
+    "show_project_first": true,
+    "show_rel_path": true,
+
+    // text appearance
+    "color_scheme":         "Packages/Base16 Color Schemes/Themes/base16-chalk.tmTheme",
+    "font_face":            "Menlo",
+    "font_size":            12,
+    "line_padding_bottom":  0,
+    "line_padding_top":     0,
+
+
+    "ignored_packages": [
+        "Vintage",
+    ],
 }

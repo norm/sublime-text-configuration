@@ -1,0 +1,6 @@
+[
+    {
+        "command": "filter_through_command",
+        "keys":    [ "super+r" ],
+    },
+]

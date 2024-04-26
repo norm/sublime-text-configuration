@@ -8,4 +8,18 @@
         "keys":    [ "ctrl+q" ],
         "args":    { "width": 78 },
     },
+    {
+        "command": "bh_key",
+        "keys":    [ "super+quote" ],
+        "args":    {
+            "lines": true,
+            "plugin": {
+                "command": "bh_modules.swapquotes",
+                "type": [
+                    "single_quote",    "double_quote",
+                    "py_single_quote", "py_double_quote"
+                ]
+            }
+        },
+    },
 ]

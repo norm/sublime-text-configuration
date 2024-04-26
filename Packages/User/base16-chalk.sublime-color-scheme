@@ -13,6 +13,11 @@
         "line_diff_modified": "#deaf8f",    // base16chalk yellow
         "line_diff_deleted":  "#9f481b",    // cognac
         "line_diff_width":    "2",
+
+        // for BracketHighlighter
+        "bracket_contents_options": "none",
+        "brackets_options":         "none",
+        "tags_options":             "none",
     },
     "rules": [
         {

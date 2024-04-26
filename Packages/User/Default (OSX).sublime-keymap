@@ -1,5 +1,9 @@
 [
     {
+        "command": "goto_symbol_in_project",
+        "keys":    [ "super+shift+t" ],
+    },
+    {
         "command": "filter_through_command",
         "keys":    [ "super+r" ],
     },
@@ -21,5 +25,9 @@
                 ]
             }
         },
+    },
+    {
+        "command": "title_case",
+        "keys":    [ "super+k", "super+t" ],
     },
 ]

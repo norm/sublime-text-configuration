@@ -3,4 +3,9 @@
         "command": "filter_through_command",
         "keys":    [ "super+r" ],
     },
+    {
+        "command": "wrap_lines_plus",
+        "keys":    [ "ctrl+q" ],
+        "args":    { "width": 78 },
+    },
 ]

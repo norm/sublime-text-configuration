@@ -29,6 +29,21 @@
     "trim_trailing_white_space_on_save": "all",
     "ensure_newline_at_eof_on_save":     true,
 
+    // editing mechanics visual
+    "block_caret":          false,
+    "caret_extra_bottom":   2,
+    "caret_extra_top":      2,
+    "caret_extra_width":    1,
+    "draw_indent_guides":   true,
+    "indent_guide_options": ["draw_active"],
+    "fade_fold_buttons":    false,
+    "highlight_gutter":     true,
+    "highlight_line":       true,
+    "rulers": [
+        [ 78,  "stippled", 1],
+        [ 120, "solid",    2],
+    ],
+
     "ignored_packages": [
         "Vintage",
     ],

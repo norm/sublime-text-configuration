@@ -1,17 +1,33 @@
 {
-    "variables": {},
+    "name": "Base16 Chalk Norman",
+
+    "variables": {
+        // base16chalk colours
+        "chalk_red":     "#fb9fb1",
+        "chalk_orange":  "#eda987",
+        "chalk_yellow":  "#ddb26f",
+        "chalk_green":   "#acc267",
+        "chalk_cyan":    "#12cfc0",
+        "chalk_blue":    "#6fc2ef",
+        "chalk_magenta": "#e1a3ee",
+        "chalk_brown":   "#deaf8f",
+
+        // marknormanfrancis.com colours
+        "mnf_cognac":    "#9f481b",
+    },
+
     "globals": {
-        "caret":          "#eda987ff",      // base16chalk orange
-        "line_highlight": "#eda98744",
-        "selection":      "#eda98766",
+        "caret":          "color(var(chalk_orange))",
+        "line_highlight": "color(var(chalk_orange) alpha(0.25))",
+        "selection":      "color(var(chalk_orange) alpha(0.4))",
 
-        "active_guide": "#6fc2efff",        // base16chalk blue
-        "guide":        "#6fc2ef77",
-        "stack_guide":  "#6fc2ef77",
+        "active_guide": "color(var(chalk_blue))",
+        "guide":        "color(var(chalk_blue) alpha(0.5))",
+        "stack_guide":  "color(var(chalk_blue) alpha(0.5))",
 
-        "line_diff_added":    "#acc267",    // base16chalk green
-        "line_diff_modified": "#deaf8f",    // base16chalk yellow
-        "line_diff_deleted":  "#9f481b",    // cognac
+        "line_diff_added":    "color(var(chalk_green))",
+        "line_diff_modified": "color(var(chalk_brown))",
+        "line_diff_deleted":  "color(var(mnf_cognac))",
         "line_diff_width":    "2",
 
         // for BracketHighlighter
@@ -19,17 +35,18 @@
         "brackets_options":         "none",
         "tags_options":             "none",
     },
+
     "rules": [
         {
             "name":       "brighter comments",
             "scope":      "comment",
-            "foreground": "#666",
+            "foreground": "#6a6a6a",
             "font_style": "italic",
         },
         {
-            "name":       "brighter comment punct",
+            "name":       "brighter comment marker",
             "scope":      "punctuation.definition.comment",
-            "foreground": "#4b4b4b",
+            "foreground": "#505050",
             "font_style": "italic",
         },
     ]

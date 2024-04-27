@@ -13,6 +13,11 @@
         "args":    { "width": 78 },
     },
     {
+        "command": "wrap_lines_plus",
+        "keys":    [ "ctrl+shift+q" ],
+        "args":    { "width": 72 },
+    },
+    {
         "command": "bh_key",
         "keys":    [ "super+quote" ],
         "args":    {

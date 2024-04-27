@@ -1,0 +1,8 @@
+// Overrides both User and Default settings for Git Commit syntax.
+
+{
+    "rulers": [
+        [ 50, "stippled", 1],
+        [ 72, "solid",    2],
+    ],
+}
